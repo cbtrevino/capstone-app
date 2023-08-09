@@ -60,6 +60,7 @@ const Main = () => {
             <Routes>
                 <Route path="/booking-page" element={<BookingPage availableTimes={state} dispatch={dispatch} submitForm={submitForm}/>} />
                 <Route path="/confirmed-booking" element={<ConfirmedBooking/> } />
+                
             </Routes>
             <div className="mainTop">
                 <div className="mainTopLeft partOne">
