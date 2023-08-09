@@ -2,7 +2,7 @@ import logo from "./assets/icons/Logo.svg"
 
 const Header = () => {
     return (
-        <img src={logo} alt="Little Lemon logo"/>
+        <img className="headerLogo" src={logo} alt="Little Lemon logo"/>
     );
 };
 

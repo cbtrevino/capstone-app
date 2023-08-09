@@ -4,13 +4,22 @@ import Nav from './Nav';
 import Main from './Main';
 import Footer from './Footer';
 
+import { Routes, Route, Link } from "react-router-dom"
+import BookingPage from "./BookingPage"
+
 function App() {
   return (
     <>
-      <Header />
-      <Nav />
-      <Main />
-      <Footer />
+      <div className="container">
+        <div className="headerNav">
+          <Header />
+          <div className="nav">
+            <Nav />
+          </div>
+        </div>
+        <Main />
+        <Footer />
+      </div>
     </>
   );
 }

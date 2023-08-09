@@ -36,3 +36,336 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  max-width: 1600px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+}
+
+.headerNav {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mainTop {
+  background-color: #495E57;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.mainTopP {
+  width: 17em;
+  color: white;
+  padding-top: 1em;
+  margin-top: 0;
+}
+
+.partOne {
+  padding-right: 15em;
+}
+.mainTitle {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #EE9972;
+}
+
+.mainSubTitle {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+.mainDishPhoto {
+  width: 25em;
+  height: 98%;
+  padding-top: 4em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-radius: 16px;
+}
+
+.headerLogo {
+  
+  width: 10em;
+  height: 5em;
+}
+
+.navUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 10em;
+  overflow: hidden;
+}
+
+.navLi {
+  float: left;
+  padding-top: 1em;
+}
+
+.navLi a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.bigButton {
+  background-color: #F4CE14;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 16pt;
+  border: none;
+  border-radius: 16px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.mainTopLeft {
+  float: left;
+}
+
+h1 {
+  font-family:'Markazi Text', serif;
+  font-size: 50pt;
+}
+
+h2 {
+  font-family:'Markazi Text', serif;
+  font-size: 40pt;
+}
+
+h4 {
+  font-family:'Markazi Text', serif;
+  font-weight: 700;
+  font-size: 18pt;
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  font-size: 16pt;
+}
+
+.mainBottom {
+  padding-top: 5em;
+}
+
+.bottomTopShelf {
+  display: flex;
+  justify-content: space-between;
+}
+
+.onlineMenu {
+  height: 50%;
+  margin-top: 3em;
+  width: 10em;
+  height: 3.5em;
+}
+
+.cardContainer {
+  display: flex;
+}
+
+.cardOne {
+  background-color: #EDEFEE;
+  border-radius: 16px;
+  margin-right: 2em;
+  width: 50%;
+}
+
+.cardTwo {
+  background-color: #EDEFEE;
+  border-radius: 16px;
+  margin-right: 2em;
+  width: 50%;
+}
+
+.cardThree {
+  background-color: #EDEFEE;
+  border-radius: 16px;
+  width: 50%;
+}
+
+.cardImage {
+  width: 100%;
+  height: 20em;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.cardDesc {
+  color: #495E57;
+  padding-left: 1.3em;
+  padding-right: 2em;
+}
+
+.cardTitleAndPrice {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.price {
+  margin-top: 1.5em;
+  color: #EE9972;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.deliveryIcons {
+  margin-left: 1em;
+}
+
+.bruchettaImage {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 20em;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  object-fit: cover;
+}
+
+.orderLinkAndicon {
+  padding-left: 2em;
+  padding-bottom: 2em;
+}
+
+.footerContainer {
+  padding-top: 5em;
+}
+
+.bookingPage {
+  background-color: #242424;
+}
+
+label {
+  margin-top: 1em;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 16pt;
+  color: white;
+
+  font-weight: bold;
+  display: block;
+
+}
+label:after { content: ": " }
+
+.formInput {
+  height: 2em;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 16pt;
+}
+
+.ResButton {
+  margin-top: 2em;
+  background-color: #F4CE14;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 16pt;
+  border: none;
+  border-radius: 16px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.confrimed {
+  font-family:'Markazi Text', serif;
+  font-size: 50pt;
+  color: #ff4545;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .mainTop {
+    background-color: aqua;
+  }
+
+  .container {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+  
+    max-width: 1600px; /* 2 */
+  
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+  }
+
+  .headerNav {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .headerLogo {
+  
+    width: 20em;
+    height: 5em;
+  }
+
+  .navUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10em;
+    overflow: hidden;
+  }
+  
+  .navLi {
+    float: left;
+    padding-top: 1em;
+  }
+  
+  .navLi a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+
+  .mainTop {
+    padding-bottom: 0;
+
+  }
+  
+  .mainTopP {
+    color: white;
+    padding-top: 1em;
+    margin-top: 0;
+  }
+
+  .mainTitle {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #EE9972;
+    text-align: center;
+  }
+
+}
+

@@ -1,7 +1,9 @@
 
 const Footer = () => {
     return (
-        <p>ALl rights reserved</p>
+        <div className="footerContainer">
+            <p>All rights reserved</p>
+        </div>
     );
 };
 
